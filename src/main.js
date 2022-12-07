@@ -25,8 +25,9 @@ function clearFields() {
     $(".dFour").text("");
 }
 
-$(document).ready(() => {
 
+
+$(document).ready(() => {
     // for the imported Javascript logo for application
     let iconImg = $(".appImg");
     iconImg.attr("href", jsImage);
