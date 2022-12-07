@@ -9,7 +9,6 @@ const Dotenv = require('dotenv-webpack');
 // because all the above are plugins we need to first require it and then add it to the plugins array in webpack.config.js
 
 
-
 module.exports = {
   entry: './src/main.js',
   output: {
