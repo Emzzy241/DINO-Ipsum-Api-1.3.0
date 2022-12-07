@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DINO Ipsum API</title>
+    <!-- linking font awesome icons NO links should be here at all, just import font awesome like the way you want to import swiper in main.js file -->
+
+    <link rel="icon" href="" class="appImg">
+</head>
+
+<body>
+
+    <h2>Do you Like Dinosaurs?</h2>
+    <h2>Learn about Dinosaurs today</h2>
+
+
+    <img src="" class="dinoImg" height="150px" width="150px" alt="">
+    <img src="" class="dinoImg" height="150px" width="150px" alt="">
+    <img src="" class="dinoImg" height="150px" width="150px" alt="">
+    <img src="" class="dinoImg" height="150px" width="150px" alt="">
+    <img src="" class="dinoImg" height="150px" width="150px" alt="">
+
+    <!-- after the image now -->
+
+    <!-- To avoid bugs(undefined) in my code, I gave each inputs a minimum number of 4, that is user mus
+    select a number and that number must be 4 or greater than 4 -->
+    <center>
+        <form id="dinoForm">
+            <label for="numParagraphs">Enter the Number of Dinosaurs you want on every paragraph:</label>
+            <input type="number" id="numParagraphs" required placeholder="only positive values" min="4">
+            <br><br>
+            <!-- for number of words(dinosaurs) user gets -->
+            
+            <label for="numWords">Enter the Amount of Dinosaur Names you want:</label>
+            <input type="number" id="numWords" required placeholder="only positive values" min="4">
+            <br><br>
+            <button type="submit" class="getDinos">GET DINOSAUR!</button>
+        </form>
+
+        <div class="result">
+            <h4>Please Hold on a second to get amazing Dinos</h4>
+            
+            <p class="error"></p>
+            <p class="dOne"></p>
+            <p class="dTwo"></p>
+            <p class="dThree"></p>
+            <p class="dFour"></p>
+        </div>
+    </center>
+    
+
+</body>
+
+</html>
