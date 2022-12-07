@@ -32,7 +32,7 @@ _In this application I make my users happy or should I say users that love anima
 * _Note: You asked for an Async and Await function version and there you have it. Thanks for Your Support_
 
 ## WebLink
-https://emzzy241.github.io/DINO-Ipsum-Api-1.2.0/
+https://emzzy241.github.io/DINO-Ipsum-Api-1.3.0/
 
 ## License
 Licensed under the GNU General Public License
